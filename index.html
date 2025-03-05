@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #container{
+            border: 1px solid bisque;
+            display: flex;
+          /*  flex-direction:row;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            height: 900px;
+            align-content: center;
+
+
+        }
+        .items{
+            background-color: lightpink;
+            width: 200px;
+            margin: 5px;
+            height: 150px;
+        }
+    </style>
 </head>
+
 <body>
-    <div id="container"></div>
-    <div class="items">1</div>
-    <div class="items">2</div>
-    <div class="items">3</div>
+    <div id="container">
+
+        <div class="items">1</div>
+        <div class="items">2</div>
+        <div class="items">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+        <div class="items">7</div>
+        <div class="items">8</div>
+        <div class="items">9</div>
+    </div>
 </body>
 </html>
